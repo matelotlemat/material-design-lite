@@ -30,7 +30,7 @@ publish:
   # see http://addons.drone.io/google_cloud_storage/ for details
   gcs:
     when:
-      repo: google/material-design-lite
+      repo: google/material-design-lipo
       branch: master
       event: push
       matrix:
